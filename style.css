@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #52596c;
+    margin-top: 23px;
+}
+
+a:hover { text-decoration: underline; }
+.auth__link {
+    color: #446644;
+    margin-top: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 6px 10px;
+    outline: none;
+    border: 1px solid #5f677b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.text::placeholder { color: #5f677b; }
+.text:focus { border: 1px solid #52596c; }
+
+.checkbox {
+    cursor: pointer;
+    margin-left: 0;
+    outline: none;
+    border: 1px solid #5f677b;
+    background: #52596c;
+}
+
+.checkbox:hover { border: 1px solid #52596c; }
+
+.label {
+    margin-left: 5px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #5f677b;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background: #5f677b;
+    margin-bottom: 10px;
+}
+
+.btn:hover { background: #52596c; }
+
+.error {
+    border: 1px solid #ffa5a5;
+    background: #ffeeee;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 15px;
+}
+
+.welcome {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.welcome p { font-size: 20px; }
+.welcome a {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.welcome img { max-width: 600px; }
